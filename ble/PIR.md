@@ -1,14 +1,16 @@
 # BLE PIR Module
---------------------
+
+<br />
 
 ## Contents  
 1. [Introduction](#Introduction)  
 2. [Hardware Overview](#HW_Overview)  
 3. [Usage](#Usage)  
-4. [Services and Characteristic UUID](#Service_Char_UUID)  
+4. [Services and Characteristics UUID](#Service_Char_UUID)  
 5. [Resources](#Resources)  
 
 <a name="Introduction"></a>
+<br />
 ## 1. Introduction  
 
 BLE 人體紅外線感測器(PIR)模組，可以透過低功耗藍牙(BLE)以無線方式發送感測器訊號。  
@@ -23,6 +25,7 @@ BLE 人體紅外線感測器(PIR)模組，可以透過低功耗藍牙(BLE)以無
  * 模組工作電壓: 5V  
 
 <a name="HW_Overview"></a>
+<br />
 ## 2. Hardware Overview  
 
 此無線感測模組由底層電源模組及上層 BLE 無線模組，外加 PIR 感測器組合而成(連接 P4 Connector)，如下圖所示。  
@@ -30,12 +33,14 @@ BLE 人體紅外線感測器(PIR)模組，可以透過低功耗藍牙(BLE)以無
 ![PIR](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_pir.png)  
 
 <a name="Usage"></a>
+<br />
 ## 3. Usage  
 
 1. 連接 Micro USB 以 5V 電源供應  
 
 <a name="Service_Char_UUID"></a>
-## 4. Services & Characteristic UUID  
+<br />
+## 4. Services & Characteristics UUID  
 
 下表為此模組的 Service 及 Char.(Characteristic) 介紹。  
 
@@ -47,6 +52,7 @@ BLE 人體紅外線感測器(PIR)模組，可以透過低功耗藍牙(BLE)以無
 |              |            | AIN Peri.       | 0xBB12   | period (uint8)                                                       | R/W         |      | Period = [Data * 10] ms, Data Range : 10~255 |  
 
 <a name="Resources"></a>
+<br />
 ## 5. Resources  
  * [PIR](http://www.icshopping.com.tw/368030200141/368030200141.pdf)  
  * [Sample Code for ble-shepherd](https://github.com/sivann-tw/hiver-iot-kit-ble/blob/master/example/pir.js)  

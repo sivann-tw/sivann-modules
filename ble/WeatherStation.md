@@ -1,14 +1,16 @@
 # BLE Weather Station Module  
---------------------
+
+<br />
 
 ## Contents  
 1. [Introduction](#Introduction)  
 2. [Hardware Overview](#HW_Overview)  
 3. [Usage](#Usage)  
-4. [Services and Characteristic UUID](#Service_Char_UUID)  
+4. [Services and Characteristics UUID](#Service_Char_UUID)  
 5. [Resources](#Resources)  
 
 <a name="Introduction"></a>
+<br />
 ## 1. Introduction  
 
 BLE Weather Station 模組包含光度、大氣壓力、溫濕度、聲音以及 PM2.5 (需自行購買 [PM 2.5 感測器](https://www.seeedstudio.com/Grove-Dust-Sensor%EF%BC%88PPD42NS%EF%BC%89-p-1050.html)) 等感測器，模組上的感測值皆可透過低功耗藍牙(BLE)以無線方式傳出。  
@@ -31,6 +33,7 @@ BLE Weather Station 模組包含光度、大氣壓力、溫濕度、聲音以及
  * 分貝計範圍：35 – 80 dB  
 
 <a name="HW_Overview"></a>
+<br />
 ## 2. Hardware Overview  
 
 此無線感測模組由三種電路模組堆疊而成，包括上層感測模組、中層 BLE 無線模組，以及底層電源模組，如下圖所示。  
@@ -38,12 +41,14 @@ BLE Weather Station 模組包含光度、大氣壓力、溫濕度、聲音以及
 ![WeatherStation](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_weather.png)  
 
 <a name="Usage"></a>
+<br />
 ## 3. Usage  
 
 1. 連接 Micro USB 以 5V 電源供應  
 
 <a name="Service_Char_UUID"></a>
-## 4. Services & Characteristic UUID  
+<br />
+## 4. Services & Characteristics UUID  
 
 下表為此模組的 Service 及 Char.(Characteristic) 介紹。  
 
@@ -66,6 +71,7 @@ BLE Weather Station 模組包含光度、大氣壓力、溫濕度、聲音以及
 \* : Handle ID 可用來分辨相同的 Char. ID 的資料。可參考 Reference 的 Sample Code 是如何處理有相同 Char. ID 的情況。  
 
 <a name="Resources"></a>
+<br />
 ## 5. Resources  
  * [光度感測器 - Si1132 Datasheets](https://www.silabs.com/Support%20Documents/TechnicalDocs/Si1132.pdf "Si1132")  
  * [氣壓感測器 - LPS25HB Datasheets](http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/4c/aa/72/1f/45/4e/24/DM00141379.pdf/files/DM00141379.pdf/jcr:content/translations/en.DM00141379.pdf)  

@@ -1,14 +1,16 @@
 # BLE 9-Axis Sensor Module
---------------------
+
+<br />
 
 ## Contents  
 1. [Introduction](#Introduction)  
 2. [Hardware Overview](#HW_Overview)  
 3. [Usage](#Usage)  
-4. [Services and Characteristic UUID](#Service_Char_UUID)  
+4. [Services and Characteristics UUID](#Service_Char_UUID)  
 5. [Resources](#Resources)  
 
 <a name="Introduction"></a>
+<br />
 ## 1. Introduction  
 
 BLE 9-Axis 模組包含三軸磁力感測器、三軸加速度及三軸陀螺儀感測器，其所感測到的磁力、加速度以及陀螺儀的數值皆可透過低功耗藍牙(BLE)模組以無線方式讀取。
@@ -27,6 +29,7 @@ BLE 9-Axis 模組包含三軸磁力感測器、三軸加速度及三軸陀螺儀
  * 3軸陀螺儀：±2000dps  
 
 <a name="HW_Overview"></a>
+<br />
 ## 2. Hardware Overview  
 
 此無線感測模組由三種電路模組堆疊而成，包括上層感測模組、中層 BLE 無線模組，以及底層電源模組(電池母板或 USB 母板)，如下圖所示。  
@@ -34,13 +37,15 @@ BLE 9-Axis 模組包含三軸磁力感測器、三軸加速度及三軸陀螺儀
 ![9-Axis](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_9-axis.png)  
 
 <a name="Usage"></a>
+<br />
 ## 3. Usage  
 
 1. 如下圖所示，於模組背面金屬凹槽處置入 CR2032 水銀電池供電，請注意**金屬殼為正極** 
 ![Battery](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/battery.png)  
 
 <a name="Service_Char_UUID"></a>
-## 4. Services & Characteristic UUID  
+<br />
+## 4. Services & Characteristics UUID  
 
 下表為此模組的 Service 及 Char.(Characteristic) 介紹。  
 
@@ -58,8 +63,9 @@ BLE 9-Axis 模組包含三軸磁力感測器、三軸加速度及三軸陀螺儀
 
 
 <a name="Resources"></a>
+<br />
 ## 5. Resources  
- * [MAG3110 Datasheets](https://www.nxp.com/files/sensors/doc/data_sheet/MAG3110.pdf)   
- * [LSM6DS3 Datasheets](http://www.st.com/content/ccc/resource/technical/document/datasheet/a3/f5/4f/ae/8e/44/41/d7/DM00133076.pdf/files/DM00133076.pdf/jcr:content/translations/en.DM00133076.pdf)  
+ * [磁力感測器 - MAG3110 Datasheets](https://www.nxp.com/files/sensors/doc/data_sheet/MAG3110.pdf)   
+ * [加速度及陀螺儀感測器 - LSM6DS3 Datasheets](http://www.st.com/content/ccc/resource/technical/document/datasheet/a3/f5/4f/ae/8e/44/41/d7/DM00133076.pdf/files/DM00133076.pdf/jcr:content/translations/en.DM00133076.pdf)  
  * [Sample Code for ble-shepherd](https://github.com/sivann-tw/hiver-iot-kit-ble/blob/master/example/nineAxis.js)  
  * [Plugin for ble-shepherd](https://github.com/bluetoother/bshep-plugin-sivann-nineaxis/blob/master/index.js)  

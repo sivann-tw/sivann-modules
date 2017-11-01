@@ -1,14 +1,16 @@
 # BLE Gas Alarm Module
---------------------
+
+<br />
 
 ## Contents  
 1. [Introduction](#Introduction)  
 2. [Hardware Overview](#HW_Overview)  
 3. [Usage](#Usage)  
-4. [Services and Characteristic UUID](#Service_Char_UUID)  
+4. [Services and Characteristics UUID](#Service_Char_UUID)  
 5. [Resources](#Resources)  
 
 <a name="Introduction"></a>
+<br />
 ## 1. Introduction  
 
 BLE Gas Alarm 模組包含 MQ-2 煙霧感測器以及蜂鳴器，煙霧濃度數值及蜂鳴器的開關可透過低功耗藍牙(BLE)模組以無線方式讀取及控制。MQ-2 感測器對於煙霧、甲烷、丙烷和乙醇等氣體有不同的敏感度，模組預設量測氣體為煙霧。  
@@ -27,6 +29,7 @@ BLE Gas Alarm 模組包含 MQ-2 煙霧感測器以及蜂鳴器，煙霧濃度數
  * MQ-2 預熱時間：不低於 48 小時  
 
 <a name="HW_Overview"></a>
+<br />
 ## 2. Hardware Overview  
 
 此無線感測模組由三種電路模組堆疊而成，包括上層感測模組、中層 BLE 無線模組，以及底層電源模組，如下圖所示。  
@@ -34,6 +37,7 @@ BLE Gas Alarm 模組包含 MQ-2 煙霧感測器以及蜂鳴器，煙霧濃度數
 ![GasAlarm](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_gas.png)  
 
 <a name="Usage"></a>
+<br />
 ## 3. Usage  
 
 1. 連接 Micro USB 以 5V 電源供應  
@@ -45,7 +49,8 @@ BLE Gas Alarm 模組包含 MQ-2 煙霧感測器以及蜂鳴器，煙霧濃度數
 3. MQ-2 感測器需預熱一段時間，量測數值才較準確  
 
 <a name="Service_Char_UUID"></a>
-## 4. Services & Characteristic UUID  
+<br />
+## 4. Services & Characteristics UUID  
 
 下表為此模組的 Service 及 Char.(Characteristic) 介紹。  
 
@@ -64,8 +69,9 @@ BLE Gas Alarm 模組包含 MQ-2 煙霧感測器以及蜂鳴器，煙霧濃度數
 
 
 <a name="Resources"></a>
+<br />
 ## 5. Resources  
 
  * [MQ-2 Datasheets](http://style.winsensor.com/pro_pdf/MQ-2.pdf)  
- * [Sample Code(ble-shepherd)](https://github.com/sivann-tw/hiver-iot-kit-ble/blob/master/example/gasAlarm.js)  
+ * [Sample Code for ble-shepherd](https://github.com/sivann-tw/hiver-iot-kit-ble/blob/master/example/gasAlarm.js)  
  * [Plugin for ble-shepherd](https://github.com/bluetoother/bshep-plugin-sivann-gassensor/blob/master/index.js)  

@@ -1,14 +1,16 @@
 # BLE Power Meter Relay Module  
---------------------
+
+<br />
 
 ## Contents  
 1. [Introduction](#Introduction)  
 2. [Hardware Overview](#HW_Overview)  
 3. [Usage](#Usage)  
-4. [Services and Characteristic UUID](#Service_Char_UUID)  
+4. [Services and Characteristics UUID](#Service_Char_UUID)  
 5. [Resources](#Resources)  
 
 <a name="Introduction"></a>
+<br />
 ## 1. Introduction  
 
 BLE Power Meter Relay 模組包含繼電器、電流感測器以及人體紅外線感測器(PIR，選用)，並可透過低功號藍牙(BLE)以無線方式控制切換電器開關、讀取量測的電流值和 PIR 變化。  
@@ -27,6 +29,7 @@ BLE Power Meter Relay 模組包含繼電器、電流感測器以及人體紅外�
  * 繼電器規格: 3A, 120VAC / 24VDC  
 
 <a name="HW_Overview"></a>
+<br />
 ## 2. Hardware Overview  
 
 此無線感測模組由三種電路模組堆疊而成，包括上層感測模組、中層 BLE 無線模組，以及底層電源模組，如下圖所示。  
@@ -34,6 +37,7 @@ BLE Power Meter Relay 模組包含繼電器、電流感測器以及人體紅外�
 ![Relay](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_relay.png)  
 
 <a name="Usage"></a>
+<br />
 ## 3. Usage  
 
 1. 連接電器  
@@ -42,8 +46,9 @@ BLE Power Meter Relay 模組包含繼電器、電流感測器以及人體紅外�
 
 ![Relay_PIR](https://raw.githubusercontent.com/sivann-tw/sivann-modules/master/media/ble_relay_pir.png)  
 
-<a name="Service_&_Characteristic_UUID"></a>
-## 4. Service & Characteristic UUID  
+<a name="Service_Char_UUID"></a>
+<br />
+## 4. Service & Characteristics UUID  
 
 下表為此模組的 Service 及 Char.(Characteristic) 介紹。  
 
@@ -61,6 +66,7 @@ BLE Power Meter Relay 模組包含繼電器、電流感測器以及人體紅外�
 |              |            | AIN Peri.       | 0xBB12   | period (uint8)                                                       | R/W         |      | Period = [Data * 10] ms, Data Range : 10~255 |  
 
 <a name="Resources"></a>
+<br />
 ## 5. Resources  
 
  * [電流感測器 - ACS712 Datasheets](https://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en&hash=36988234DAD64352493E4A4686E6C3A927F4D7AC)  
