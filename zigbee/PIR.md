@@ -45,7 +45,7 @@ Zigbee 人體紅外線感測器(PIR)模組，可以透過 zigbee 以無線方式
 下列表格為此模組的 Cluster 及 Attribute 介紹。  
 
 * **Profile ID**: HA (0x0104)  
-* **Device ID**: On/Off Switch (0x0000)  
+* **Device ID**: Simple Sensor (0x000C)  
 * **Endpoint ID**: 1  
 
 * **PIR Module Cluster ID**  

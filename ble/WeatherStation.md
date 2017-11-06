@@ -73,7 +73,7 @@ BLE Weather Station 模組包含光度、大氣壓力、溫濕度、聲音以及
 <a name="Resources"></a>
 <br />
 ## 5. Resources  
- * [光度感測器 - Si1132 Datasheets](https://www.silabs.com/Support%20Documents/TechnicalDocs/Si1132.pdf "Si1132")  
+ * [光度感測器 - Si1132 Datasheets](https://www.silabs.com/Support%20Documents/TechnicalDocs/Si1132.pdf)  
  * [氣壓感測器 - LPS25HB Datasheets](http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/4c/aa/72/1f/45/4e/24/DM00141379.pdf/files/DM00141379.pdf/jcr:content/translations/en.DM00141379.pdf)  
  * [溫溼度感測器 - SHT20 Datasheets](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT20_Datasheet_V4.pdf)  
  * [聲音感測器 - SPW2430HR5H-B Datasheets](http://www.mouser.com/ds/2/218/-531228.pdf)  
