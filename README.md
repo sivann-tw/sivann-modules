@@ -29,3 +29,6 @@ User guides of sivann wireless modules
 
 * Firmware  
     - [Hex files for Zigbee](https://github.com/sivann-tw/sivann-modules/tree/master/zigbee/hexFiles)  
+
+* ZigBee gateway  
+    - [zbserver_example](https://github.com/sivann-tw/sivann-modules/tree/master/zigbee/zbserver_example)  
