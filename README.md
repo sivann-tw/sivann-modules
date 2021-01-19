@@ -16,6 +16,9 @@ User guides of sivann wireless modules
 * Firmware  
     - [Hex files for BLE](https://github.com/sivann-tw/sivann-modules/tree/master/ble/hexFiles)  
 
+* BLE gateway  
+    - [bleserver_example](https://github.com/sivann-tw/sivann-modules/tree/master/ble/bleserver_example)  
+
 <br />
 
 ## Zigbee  

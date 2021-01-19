@@ -1,0 +1,18 @@
+{
+  "name": "bleserver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bleserver.js",
+  "dependencies": {
+    "ble-shepherd": "^1.2.0",
+    "bshep-plugin-sivann-gassensor": "^1.0.1",
+    "bshep-plugin-sivann-relay": "^1.0.0",
+    "bshep-plugin-sivann-remotecontrol": "^1.0.0",
+    "bshep-plugin-sivann-weatherstation": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
